@@ -6,7 +6,7 @@ import { CardComponent } from 'src/component/card/card.component';
 import { WellsComponent } from 'src/component/wells/wells.component';
 
 const routes: Routes = [
-  {path:'login',component:LoginComponent},
+  {path:'',component:LoginComponent},
   {path:'register',component:RegisterComponent},
   {path:'card',component:CardComponent},
   {path:'wells',component:WellsComponent}
