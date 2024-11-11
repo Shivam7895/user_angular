@@ -43,8 +43,9 @@ this.logInForm = this._FB.group({
        this._US.setLocalStorage('email',userDtails.email)
        this._US.setLocalStorage('token',userDtails.tokens[0].token)
        this._US.setLocalStorage('_id',userDtails._id)
-       this.router.navigate(['/card'])
-    })
+       this.router.navigate(['/wells'])
+
+        })
   }
 
 }
