@@ -50,7 +50,7 @@ export class UserService {
             'x-powered-by': 'Express',
  'x-render-origin-server': 'Render' ,
           });
-          this.baseUrl = environment?.baseUrl;
+          this.baseUrl = 'http://ec2-18-119-130-193.us-east-2.compute.amazonaws.com/'
     }
 
     getAuth$(): Observable<{}> {
